@@ -474,6 +474,26 @@ body {
     .row .col-3-of-4 {
       width: calc((300% - 6rem) / 4); }
 
+.navigation__button {
+  background-color: #FFF;
+  width: 7rem;
+  height: 7rem;
+  right: 6rem;
+  top: 6rem;
+  position: fixed;
+  border-radius: 50%;
+  z-index: 2000; }
+
+.navigation__background {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  position: fixed;
+  top: 6.5rem;
+  right: 6.5rem;
+  background-image: radial-gradient(#7ed56f, #28b485);
+  z-index: 1000; }
+
 .header {
   position: relative;
   height: 95vh;
